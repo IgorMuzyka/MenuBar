@@ -36,9 +36,9 @@ To construct a **MenuBar** simply create an instance like this.
 ```swift
 let menuBar = MenuBar(descriptors: [
     .item([.title("This is a title of an item of a menu bar")]),
-    .item([.title("You can set the enabled status of the item"), .enabled(false)]),
-    .item([.title("Also you can mark a item with a on or off state"), .state(.on)]),
-    .item([.title("This is how you set action to be executed when item is clicked"), .action({ print("click") })]),
+    .item([.enabled(false), .title("You can set the enabled status of the item")]),
+    .item([.state(.on), .title("Also you can mark a item with a on or off state")]),
+    .item([.action({ print("click") }), .title("This is how you set action to be executed when item is clicked")]),
     .separator, // and this is just a separator that will be visible between the items
     .menu([.title("And this is a menu or a submenu in this case")], [
         .item([.title("Items in which can be configured in the same exact way")])
