@@ -66,7 +66,7 @@ menuBar.image = NSImage(named: "You app MenuBar icon")
 
 Also **keep in mind** that you should **hold** the instance of **MenuBar** in order for it to **exist** and work properly. (App Delegate is an okay place to hold it).
 
-Whenever you want to update the **MenuBar** just overwrite the it's **descriptors** property.
+Whenever you want to update the **MenuBar** just overwrite it's **descriptors** property.
 
 ```swift
 menuBar.descriptors = [
