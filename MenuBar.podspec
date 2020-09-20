@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.author = { 'igormuzyka' => 'igormuzyka42@gmail.com' }
   s.source = { :git => 'https://github.com/igormuzyka/MenuBar.git', :tag => s.version.to_s }
-  s.source_files = 'Sources/*'
+  s.source_files = 'Sources/**/*'
 
   s.osx.deployment_target = "10.10"
 

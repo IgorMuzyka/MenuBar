@@ -1,4 +1,6 @@
 
+import AppKit.NSMenu
+
 extension NSMenu {
 
     public func clear() {
